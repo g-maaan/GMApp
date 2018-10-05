@@ -1,0 +1,6 @@
+Z:\Основы_Алгоритмизации_и_Программирования\Практическая_Работа_06\HuntApp01\HuntApp01\HuntApp01\bin\Debug\HuntApp01.exe.config
+Z:\Основы_Алгоритмизации_и_Программирования\Практическая_Работа_06\HuntApp01\HuntApp01\HuntApp01\bin\Debug\HuntApp01.exe
+Z:\Основы_Алгоритмизации_и_Программирования\Практическая_Работа_06\HuntApp01\HuntApp01\HuntApp01\bin\Debug\HuntApp01.pdb
+Z:\Основы_Алгоритмизации_и_Программирования\Практическая_Работа_06\HuntApp01\HuntApp01\HuntApp01\obj\Debug\HuntApp01.csprojResolveAssemblyReference.cache
+Z:\Основы_Алгоритмизации_и_Программирования\Практическая_Работа_06\HuntApp01\HuntApp01\HuntApp01\obj\Debug\HuntApp01.exe
+Z:\Основы_Алгоритмизации_и_Программирования\Практическая_Работа_06\HuntApp01\HuntApp01\HuntApp01\obj\Debug\HuntApp01.pdb

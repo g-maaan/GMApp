@@ -1,0 +1,6 @@
+Z:\Информационные_Системы_и_Программирование\CalcAppSwi4Case\CalcAppSwi4Case\bin\Debug\CalcAppSwi4Case.exe.config
+Z:\Информационные_Системы_и_Программирование\CalcAppSwi4Case\CalcAppSwi4Case\bin\Debug\CalcAppSwi4Case.exe
+Z:\Информационные_Системы_и_Программирование\CalcAppSwi4Case\CalcAppSwi4Case\bin\Debug\CalcAppSwi4Case.pdb
+Z:\Информационные_Системы_и_Программирование\CalcAppSwi4Case\CalcAppSwi4Case\obj\Debug\CalcAppSwi4Case.csprojResolveAssemblyReference.cache
+Z:\Информационные_Системы_и_Программирование\CalcAppSwi4Case\CalcAppSwi4Case\obj\Debug\CalcAppSwi4Case.exe
+Z:\Информационные_Системы_и_Программирование\CalcAppSwi4Case\CalcAppSwi4Case\obj\Debug\CalcAppSwi4Case.pdb
