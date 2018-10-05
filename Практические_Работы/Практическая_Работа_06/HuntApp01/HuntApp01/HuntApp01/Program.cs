@@ -49,10 +49,12 @@ namespace HuntApp01
             {
                 p = 1;
 
+                Console.WriteLine("ПОПАЛ!!!");
             }
             else if (R <= 9 && R > 4)
             {
                 p = 2;
+                Console.WriteLine("ПОПАЛ!!!");
             }
 
 
@@ -60,24 +62,31 @@ namespace HuntApp01
             {
 
                 p = 3;
+                Console.WriteLine("ПОПАЛ!!!");
             }
 
-            else if (R <= 1)
+            else if (R <= 1 && R>=0)
             {
 
                 p = 4;
+                Console.WriteLine("ПОПАЛ!!!");
+
+            }
+            else
+            {
+                Console.WriteLine("ЛОХ! Не попал.");
             }
 
             Console.WriteLine();
             Console.WriteLine();
-            Console.WriteLine(x);
-            Console.WriteLine(y);
+            Console.WriteLine("Ты попал в точку : ("+ x +";"+ y +")");
+            
 
-            Console.WriteLine(p);
+            Console.WriteLine("Колличество набранных очков : " +p);
             Console.WriteLine();
             Console.WriteLine();
 
-            Console.WriteLine("УОУ УОУ УОУ. Полегче стрелок. Ладно. Попытка № 2. Поехали.");
+            Console.WriteLine("Ладно. Попытка № 2. Поехали.");
             Console.ReadLine();
             Console.WriteLine();
             Console.WriteLine();
@@ -86,8 +95,8 @@ namespace HuntApp01
             Console.WriteLine();
             Console.ReadLine();
             Console.WriteLine("          00\n          000\n          0 00\n          0  00\n          0   00                                               _\n          0    00                                             I I\n          0     00                                            I I\n          0      00                                           I I\n          0       00                                          I I\n          0       00                          ЖЖЖ-------------I I------->\n          0       00                                          I I\n          0      00                                           I I\n          0     00                                            I I\n          0    00                                             I_I\n          0   00\n          0  00\n          0 00\n          000\n          00");
-
-
+            Console.WriteLine();
+            Console.WriteLine();
             int pp = 0;
             int xx = rnd.Next(-4, 4);
             int yy = rnd.Next(-4, 4);
@@ -98,11 +107,13 @@ namespace HuntApp01
             if (RR <= 16 && RR > 9)
             {
                 pp = 1;
+                Console.WriteLine("Я НЕ ВЕРЮ СВОИМ ГЛАЗАМ! ТЫ ПОПАЛ!!!");
 
             }
             else if (RR <= 9 && RR > 4)
             {
                 pp = 2;
+                Console.WriteLine("Я НЕ ВЕРЮ СВОИМ ГЛАЗАМ! ТЫ ПОПАЛ!!!");
             }
 
 
@@ -110,22 +121,28 @@ namespace HuntApp01
             {
 
                 pp = 3;
+                Console.WriteLine("Я НЕ ВЕРЮ СВОИМ ГЛАЗАМ! ТЫ ПОПАЛ!!!");
             }
 
-            else if (RR <= 1)
+            else if (RR <= 1 && RR >= 0)
             {
 
                 pp = 4;
+                Console.WriteLine("Я НЕ ВЕРЮ СВОИМ ГЛАЗАМ! ТЫ ПОПАЛ!!!");
+            }
+            else
+            {
+                Console.WriteLine("ЛОХ! Не попал.");
             }
             Console.WriteLine();
             Console.WriteLine();
-            Console.WriteLine(xx);
-            Console.WriteLine(yy);
+            Console.WriteLine("Ты попал в точку : (" + xx + ";" + yy + ")");
 
-            Console.WriteLine(pp);
+
+            Console.WriteLine("Колличество набранных очков : " + pp);
             Console.WriteLine();
             Console.WriteLine();
-            Console.WriteLine("НУ ТЫ ДАЁШЬ !!!  МОНСТРРРРРР!!! Всё. Приготовься. Последняя попытка. Бахай...");
+            Console.WriteLine("Всё. Приготовься. Последняя попытка. Бахай...");
             Console.ReadLine();
             Console.WriteLine();
             Console.WriteLine();
@@ -148,36 +165,44 @@ namespace HuntApp01
             if (RRR <= 16 && RRR > 9)
             {
                 ppp = 1;
+                Console.WriteLine("ПОПАДАНИЕ!!!");
 
             }
             else if (RRR <= 9 && RRR > 4)
             {
                 ppp = 2;
+                Console.WriteLine("ПОПАДАНИЕ!!!");
             }
 
 
-            else if (RR <= 4 && RR > 1)
+            else if (RRR <= 4 && RRR > 1)
             {
 
                 ppp = 3;
+                Console.WriteLine("ПОПАДАНИЕ!!!");
             }
 
-            else if (RR <= 1)
+            else if (RRR <= 1 && RRR >= 0)
             {
 
                 ppp = 4;
+                Console.WriteLine("ПОПАДАНИЕ!!!");
+            }
+            else
+            {
+                Console.WriteLine("ЛОХ! Не попал.");
             }
             Console.WriteLine();
             Console.WriteLine();
-            Console.WriteLine(xxx);
-            Console.WriteLine(yyy);
+            Console.WriteLine("Ты попал в точку : (" + xxx + ";" + yyy + ")");
 
-            Console.WriteLine(ppp);
+
+            Console.WriteLine("Колличество набранных очков : " + ppp);
             Console.WriteLine();
             Console.WriteLine();
-            Console.WriteLine("УУУУУААААА. Просто убийца. Хуууух. Ладно...пора подвести итоги. Вот, смотри: ");
+            Console.WriteLine("УУУУУААААА. Ты просто убийца. Хуууух. Ладно...пора подвести итоги. Вот, смотри: ");
             Console.ReadLine();
-            Console.WriteLine("Выстрел     №1     №2     №3\nОчки         "+p+"      "+pp+"      "+ppp+"\nИтого   "+(p+pp+ppp));
+            Console.WriteLine("Выстрел     №1     №2     №3\nОчки         " + p + "      " + pp + "      " + ppp + "\nИтого   " + (p + pp + ppp));
             Console.ReadLine();
 
         }
