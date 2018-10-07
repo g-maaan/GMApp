@@ -10,7 +10,7 @@ namespace PracRab03
     {
         static void Main(string[] args)
         {
-             Console.WriteLine("Здравствуйте, вас приветствует программа анкета. \nГрише не хватило времени сделать мне дружелюбный интерфейс.\nПоэтому, давай по делу:");
+             Console.WriteLine("Здравствуйте, вас приветствует программа 'Анкета'. \nГрише не хватило времени сделать мне дружелюбный интерфейс.\nПоэтому, давай по делу:");
             Console.WriteLine("Имя: ");
             string Name = (Console.ReadLine());
             Console.WriteLine("Фамилия: ");
