@@ -11,19 +11,19 @@ namespace CalcAppSwi4Case
         static void Main(string[] args)
         {
             Console.WriteLine("Ну кому я ТЕПЕРЬ нужен? мДаааа...Как низко ты пал. У тебя что нормального калькулятора нет? Ну ты даёшь...\nЛадно, чем раньше начнём, тем быстрее закончим. А чем быстрее закончим, тем лучше. Ок. Значит...\nКак мне к тебе обращаться?");
-            string UserName = Console.ReadLine();
+            string UserName = Console.ReadLine();// вводим переменную обозначающую имя пользователя
             Console.WriteLine("Ну что, " + UserName + ", Поехали...");
             Console.WriteLine("Я много чего могу: складывать(+), вычитать(-), делить(/), умножать(*)");
             Console.WriteLine("Вообщем всё, что хочешь. Ну что... Начнём?");
 
-            double First, Second;
+            double First, Second;// вводим Первую и Вторую переменную
             Console.WriteLine("Итак, введи Первую переменную:");
-            First = double.Parse(Console.ReadLine());
+            First = double.Parse(Console.ReadLine());// пользователь вводит значение Первой переменной
             
             Console.WriteLine("Введи Вторую переменную:");
-            Second = double.Parse(Console.ReadLine());
+            Second = double.Parse(Console.ReadLine());// пользователь вводит значение Второй переменной
             Console.WriteLine("Выбери математическое действие:");
-            string Cmd = Console.ReadLine();
+            string Cmd = Console.ReadLine();// вводим переменную оьозначающую действие, которое пользователь хочет произвести с переменными
             switch (Cmd)
             {
                 case "+":
