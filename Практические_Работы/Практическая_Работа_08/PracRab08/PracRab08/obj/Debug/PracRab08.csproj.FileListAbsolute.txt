@@ -1,0 +1,7 @@
+C:\Users\Admin\Desktop\PracRab08\PracRab08\bin\Debug\PracRab08.exe.config
+C:\Users\Admin\Desktop\PracRab08\PracRab08\bin\Debug\PracRab08.exe
+C:\Users\Admin\Desktop\PracRab08\PracRab08\bin\Debug\PracRab08.pdb
+C:\Users\Admin\Desktop\PracRab08\PracRab08\obj\Debug\PracRab08.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\PracRab08\PracRab08\obj\Debug\PracRab08.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\PracRab08\PracRab08\obj\Debug\PracRab08.exe
+C:\Users\Admin\Desktop\PracRab08\PracRab08\obj\Debug\PracRab08.pdb
