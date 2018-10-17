@@ -1,7 +1,0 @@
-C:\Users\Admin\Desktop\PracRab07\PracRab07\bin\Debug\PracRab07.exe.config
-C:\Users\Admin\Desktop\PracRab07\PracRab07\bin\Debug\PracRab07.exe
-C:\Users\Admin\Desktop\PracRab07\PracRab07\bin\Debug\PracRab07.pdb
-C:\Users\Admin\Desktop\PracRab07\PracRab07\obj\Debug\PracRab07.csprojResolveAssemblyReference.cache
-C:\Users\Admin\Desktop\PracRab07\PracRab07\obj\Debug\PracRab07.csproj.CoreCompileInputs.cache
-C:\Users\Admin\Desktop\PracRab07\PracRab07\obj\Debug\PracRab07.exe
-C:\Users\Admin\Desktop\PracRab07\PracRab07\obj\Debug\PracRab07.pdb
