@@ -19,9 +19,7 @@ namespace CalcAppSwi4Case
             double First, Second;
             Console.WriteLine("Итак, введи Первую переменную:");
             First = double.Parse(Console.ReadLine());
-            if (First.GetTypeCode() == TypeCode.String) {
-                Console.WriteLine("asasdasd");
-            }
+            
             Console.WriteLine("Введи Вторую переменную:");
             Second = double.Parse(Console.ReadLine());
             Console.WriteLine("Выбери математическое действие:");
