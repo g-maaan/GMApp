@@ -7,36 +7,42 @@ using System.Threading.Tasks;
 namespace MosPark
 {
 
-    class Automobile
+   class Car
     {
-        public string Marka = Console.ReadLine();
-        public string Model = Console.ReadLine();
-        public string color = Console.ReadLine();
+        public string Brand;
+        public string Model;
+        public string Colour;
+        public float Number;
+        DateTime ArivalTime = DateTime.Now;
 
+        public void GetInfo()
+        {
+            Console.WriteLine($"Brand: {Brand} \nModel: {Model} \nColour: {Colour} \nNumber: {Number}\nTime of arival: {ArivalTime} ");
+        }
     }
     class Parking
     {
-        public int Number = int.Parse(Console.ReadLine());
-        public DateTime currentDate = DateTime.Now;
+        public float ParkingPlace; //место парковки 
+        public float DataTime; //время прибытия 
+
+
     }
-
-
-
-
     class Program
     {
         static void Main(string[] args)
         {
-            DateTime currentDate = DateTime.Now;
-            Console.WriteLine(currentDate);
-
-            Console.WriteLine(Marka);
+            Car info = new Car();
+            Console.WriteLine("Type your Brand: ");
+            info.Brand = Console.ReadLine();
+            Console.WriteLine("Type your Model: ");
+            info.Model = Console.ReadLine();
+            Console.WriteLine("Type your Colour: ");
+            info.Colour = Console.ReadLine();
+            Console.WriteLine("Type your Number: ");
+            info.Number = Convert.ToInt32(Console.ReadLine());
+            info.GetInfo();
             Console.ReadKey();
 
-
-
-
-
         }
-    }
+
 }
